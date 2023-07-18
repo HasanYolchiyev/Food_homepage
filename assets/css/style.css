@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.topleft ul li a{
+    font-family: 'Lobster';
+    font-size:24px;
+    color: black;
+}    
+.topcenter ul li{
+    font-family: "Roboto";
+
+}
+ul li a,li{
+    text-decoration: none; 
+}
+header .headertop{
+    display: flex;
+   
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.headertop ul li {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+a{
+    color: black;
+}
+.headertop ul{
+    margin-left: 100px;
+}
+.topright{
+    margin-left: 100px ;
+}
+.img {
+    height: 100vh;
+    background-image: url("../img/yemek-fotografi-nasil-cekilir-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;;
+
+    display: flex;
+  }
+.img h1{
+    width: 500px;
+    font-size: 50px;
+    margin-bottom: 400px;
+    margin-left: 30px;
+    background-color: aquamarine;
+    
+}
+  .img .content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  main{
+    height: 5000px;
+}
+.Categor h1{
+    margin-left: 50px;
+    font-size: 50px;
+}
+button{
+    background-color:rgb(0, 0, 0) ;  
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+button {
+    color: #ffffff;
+    list-style-type: none;
+    font-weight: 900;
+}
+.container {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70vh;
+    display: flex;
+  }
+  .container .btn-holder {
+    justify-content: flex-end;
+    display: flex;
+}
+.icons{
+    display: flex;
+}
+.Categor h2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+.Categor{
+    margin-top: 200px;
+}
+.break{
+    margin-left: 50px;
+}
+.Vegan{
+    margin-left: 50px;
+}
+.Vegan img{
+    width: 150px;
+}
+.break img{
+    width: 150px;
+}
+.Meat img{
+    width: 150px;
+    height: 150px;
+}
+.Meat{
+    margin-left: 50px;
+}
+.Dessert img{
+    width: 200px;
+    height: 150px;
+}
+.Dessert h2{
+    margin-left: 50px;
+}
+.Dessert{
+    margin-left: 50px;
+}
+.Categor{
+    background-color: rgb(218, 216, 216);
+}
+.Lunch img{
+    width:170px;
+    height: 150px;
+}
+.Lunch {
+    margin-left: 50px;
+}
+.Chocolate img{
+    width: 150px;
+}
+.Chocolate{
+    margin-left: 50px;
+}
+.burger img{
+    width: 368px;
+    height: 250px;
+}
+.recipes{
+    margin-top: 200px;
+}
+.recipes h1{
+    margin-left: 40%;
+
+}
+.meal1{
+    margin-top: 100px;
+    display: flex;
+    
+}
+.sal img{
+    width: 368px;
+    height: 250px;
+}
+.pan img{
+    width: 368px;
+    height: 250px;
+}
+.pan{
+    margin-left: 100px;
+}
+.sal{
+    margin-left: 100px;
+}
+.recipes{
+    background-color: aliceblue;
+}
+.meal2{
+    margin-top: 150px;
+    display: flex;
+}
+.recipes h3{
+    width: 368px;
+}
+.mt{
+    margin-left: 100px;
+}
+.recipes img{
+    border-radius: 30px;
+}
+.dont{
+    width: 400px;
+height: 434px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+margin-left: 100px;
+}
+.dont h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.dont img{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.dont p{
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.meal3{
+    margin-top: 60px;
+    display: flex;
+}
+.bluu{
+    margin-left: 100px;
+}
+.pasta img{
+    width: 368px;
+    height: 250px;
+    margin-left: 100px;
+}
+.pasta h3{
+    margin-left: 100px;
+}
+.ch{
+    margin-top:200px;
+    display: flex;
+}
+.chef{
+    margin-left: 100px;
+}
+.text h1{
+    width: 330px;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: Inter;
+}
+.text p{
+    width: 400px;
+    font-size: 20;
+    margin-left: 100px;
+    color: rgb(206, 201, 201)
+}
+.button{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.28px;
+}
+.check{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.92px;
+}
+.sdka{
+    margin-top: 200px;
+}
+.button2{
+    margin-top: 100px;
+}
+.sdka{
+   background-color: rgb(214, 255, 241);
+}
+.mixed img{
+    width: 300px;
+    margin-left:30px;
+
+}
